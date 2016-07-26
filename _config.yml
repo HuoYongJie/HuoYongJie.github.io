@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
+title: "码农小霍"
+description: "利用github搭建"
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
 
 baseurl: "/"
@@ -12,11 +12,11 @@ url: "http://www.jack003.com"
 # author
 author:
   name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  first_name: '霍'
+  last_name: '永杰'
+  email: ''
+  facebook_username: ''
+  github_username: 'HuoYongJie'
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
