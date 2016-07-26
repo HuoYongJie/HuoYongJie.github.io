@@ -1,48 +1,23 @@
-# Permalinks
-permalink:        pretty
+# Default, Defaults
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
 
-# Setup
-url:              http://qwtel.com
+# Jekyll Defaults
+title: Artist Theme
+email: your-email@domain.com
+description: A small and simple site I made to test out Jekyll. Watch out! I'm going to make a material design theme next!
+baseurl: "http://localhost:3000" # the subpath of your site, e.g. /blog
 
-# Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /hydejack
+# Where can people find your site?
+url: "http://localhost:3000"
+# When developing, set this ^ equal to whatever localhost you're using
 
-title:            Hydejack
+# Socail Media links
+# Use these to link users to your organization's social media sites
+twitter:
+facebook:
+google:
 
-# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
-description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
-
-# The tags listed as entries in the sidebar
-sidebar_tags:     [jekyll, hyde]
-
-# Fallback image and color if not overwritten for tag or post
-image:            /hydejack/public/img/nap.jpg
-color:            '#A85641'
-
-author:
-  name:           'Florian Klampfer'
-
-  # Setting social media usernames will add icons at the bottom of the sidebar
-  twitter:        qwtel
-  github:         qwtel
-
-  # Setting a disqus username will enable the comment section
-  disqus:         qwtel
-
-  # This photo will be used in the about section
-  photo:          http://qwtel.com/public/img/flo.jpg
-
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
-
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
-
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: true
+author: Nina Petropoulos
+authorBio: A English major by day, a musician by night, and a web developer because of the summer I was bored - my name's Nina and I hope you enjoy my Hello Portland theme, the second theme I've made with Jekyll.

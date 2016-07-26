@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  {% include head.html %}
-
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- <Custo></Custo>m CSS -->
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+  </head>
   <body>
-    <a id="_menu" class="menu" href="#_sidebar">☰</a>
 
-    <main class="content container">
-      {{ content }}
+    {% include nav.html %}
+
+
+
+    <main id="panel">
+      <button class='toggle-button'><span class='bar'></span><span class='bar'></span><span class='bar'></span></button>
+      <div class='content-wrap'>
+        {{ content }}
+      </div>
     </main>
 
-    {% include sidebar.html %}
 
-    <script src="{{ site.baseurl }}/public/js/hydejack.js" async></script>
+      {% include footer.html %}
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{ site.url }}/assets/js/function.js"></script>
   </body>
 </html>
