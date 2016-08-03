@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title:       "码农小霍"
+title:       "码农小霍2017-07"
 description: "域名到期时间2017-07"
 url:         # the base hostname & protocol for your site
 
@@ -32,7 +32,7 @@ kramdown:
 #
 owner:
   name: 码农小霍
-  avatar: user.jpg
+  avatar: 
   job: "iOS Coder"
   bio: "不忘初心"
   email:
@@ -46,7 +46,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github:HuoYongJie
+  github: HuoYongJie
   lastfm: #username
   tumblr: #username
   pinterest: #username
