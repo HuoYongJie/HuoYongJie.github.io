@@ -32,7 +32,7 @@ kramdown:
 #
 owner:
   name: 码农小霍
-  avatar: 
+  avatar: avatar.jpg
   job: "iOS Coder"
   bio: "不忘初心"
   email:
@@ -46,7 +46,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: HuoYongJie
+  github: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
