@@ -46,7 +46,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: https://github.com/HuoYongJie
   lastfm: #username
   tumblr: #username
   pinterest: #username
