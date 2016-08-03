@@ -1,35 +1,36 @@
-# taken
+# Update 05/06/2016
 
-Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
+Important! It's better to download the gzipped files instead of forking the repo. I would really appreciate if you could give me a star. 😁
 
-![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
+This project is under MIT license, so feel free to make it your own.
 
-## Updates
+# Leonids Jekyll Themes
 
-Note: There's a stable branch (v1.0) which includes the default taken theme.
-Master and gh-pages branch now include the latest changes:
+**[Leonids](http://renyuanz.github.io/leonids)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
 
-* Better responsive support ( sidebar collapse)
-* Fade in animations
+## What is Leonids?
 
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Simple and clear permalink structure.
+* Support for Disqus Comments.
+* Support for multi-authors.
+* **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
 
-## Features
-* Flickr feed
-* Disqus
-* more ...
+See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
 
-## Demo
-You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
+## Quick setup
 
-## Instructions
+`git clone https://github.com/renyuanz/leonids`
 
-1. Fork this repository
-2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
-3. Run it.<br />`jekyll serve`
-4. Go to http://127.0.0.1:4000.
+`cd leonids`
 
-## To do list:
-* Categories support
-* Add portfolio section
-* Flickr plugin animation and configuration
-* More...
+`jekyll server`
+
+Check out your awesome blog at `http://localhost:4000` and Cheers!
+
+## TODO
+
+- [ ] Build a timeline page.
+- [ ] Build a portfolio page.
+- [ ] Redesign categories page. Ref: [dribbble: blog category section By Ilja Miskov](https://dribbble.com/shots/2274792-Blog-Category-Selection)
+- [ ] Multi languages support.
