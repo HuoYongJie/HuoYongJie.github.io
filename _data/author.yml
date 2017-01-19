@@ -1,0 +1,53 @@
+# Author settings
+name: 霍永杰
+title: iOS 开发工程师
+address: 中国, 北京
+email: 349574068@qq.com
+github: huoyongjie
+gavatar: /assets/img/avatar.JPG
+workHistory:
+- work1:
+  company: 北京亿维融智软件有限公司
+  location: 中国，北京
+  title: iOS 开发工程师
+  started: 2014
+  duration: (2015.7 - Present)
+  description: 开发和维护App
+
+
+
+
+educationHistory:
+- education1:
+  organization: 洛阳理工学院
+  degree: 学士
+  major: 计算机科学与技术
+  started: 2010
+  duration: (2010.9 - 2014.7)
+  description: 自学 C/C++, JavaScript
+languages:
+- language1:
+  name: 中文
+  proficiency: Native
+- language2:
+  name: English
+  proficiency: Limit
+programmingSkills:
+- Java:
+  name: Java/Android
+  percentage: 90%
+- Bash:
+  name: Bash Shell
+  percentage: 90%
+- CPP:
+  name: C/C++
+  percentage: 70%
+- PHP:
+  name: PHP
+  percentage: 30%
+- Python:
+  name: Python
+  percentage: 30%
+- Kotlin:
+  name: Kotlin
+  percentage: 70%
