@@ -5,6 +5,7 @@ menu:
   #我是: /aboutme
 rss: /atom.xml
 description: 
+url: https://huoyongjie.github.io
 social:
   weibo: 
   github: https://github.com/monniya
