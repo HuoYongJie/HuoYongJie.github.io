@@ -1,31 +1,30 @@
-# Site settings
-title: 小霍2017-07
-description: 小霍2017-07
-favicon: /assets/img/avatar.JPG
-baseurl:
-url: https://huoyongjie.github.io
-rss_url:
+menu:
+  #Archives: /archives
+  黄金屋: /favourite
+  时光机: /favourite/time.html
+  #我是: /aboutme
+rss: /atom.xml
+description: 
+social:
+  weibo: 
+  github: https://github.com/monniya
+  stack_overflow: 
+  facebook: 
+  twitter: https://twitter.com/onlymonniya
+  google_plus: 
 
-# Build settings
+page_comment: false
+logo: /images/avatar.jpg
+background:
+  cover: /images/background-cover.jpg
+  color: cover-purple
 
-highlight: true
-#highlighter: rouge
+archive_date_format: MMM DD
+fancybox: true
 
-timezone: Asia/Shanghai
+duoshuo_shortname: 
 
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+google_analytics: UA-78918255-1
+baidu_tongji: 9cdad07c755fa23f6aced510c6760e87
+favicon: /images/avatar-small.png
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
